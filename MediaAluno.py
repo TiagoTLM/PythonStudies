@@ -6,7 +6,8 @@ n2 = float(input('Informe a segunda nota: '))
 med = (n1 + n2) / 2
 print('A média das notas do aluno {} é: {}'.format(nome, med))
 
+# Condicional para definir se o aluno está aprovado ou se vai perder o videogame
 if med >= 7:
     print('O aluno {} está aprovado!'.format(nome))
-elif med < 7:
+else:
     print('O aluno {} está reprovado!'.format(nome))
