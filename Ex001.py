@@ -1,2 +1,2 @@
-# Exercício 001: Crie um programa que mostre "Olá, mundo" na tela.
+#Tem que ter
 print('Olá, mundo!')
